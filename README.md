@@ -5,4 +5,7 @@ Sky Discord][discord].
 
 Posted in `#plugin-chat` channel.
 
+This is a plugin for the game [Endless Sky][es].
+
+[es]: https://endless-sky.github.io/
 [discord]: https://discord.gg/ZeuASSx
