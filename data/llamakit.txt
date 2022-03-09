@@ -77,6 +77,7 @@ outfit `"Llama Spit"`
 		"disruption damage" 0.8
 		"slowing damage" 1
 		"hit force" 350
+		"safe"
 		"missile strength" 0
 	description "This appears to be a heavily modified drone cannon; it doesn't do any more direct damage, but interferes with the target's shields and engines quite significantly for a weapon of its size, while firing faster, more accurate, longer-range, more damaging projectiles."
 	description "It's impossible to tell why the weapon is named after an Ungulate's bodily fluid, but the namesake suggests it might be intended as the primary weapon."

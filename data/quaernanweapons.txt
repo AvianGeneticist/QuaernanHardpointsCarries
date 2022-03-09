@@ -578,8 +578,8 @@ outfit "Antimatter Missile Launcher"
 		"infrared tracking" 1
 		"radar tracking" .8
 		"optical tracking" .6
-		"trigger radius" 120
-		"blast radius" 1025
+		"trigger radius" 75
+		"blast radius" 725
 		"shield damage" 50000
 		"hull damage" 42500
 		"hit force" 3000

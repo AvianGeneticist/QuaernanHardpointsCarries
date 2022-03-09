@@ -74,6 +74,7 @@ outfit "Drone Cannon"
 		"shield damage" 825
 		"hull damage" 750
 		"hit force" 350
+		"safe"
 		"missile strength" 0
 	description "These are the main guns aboard the Alpaca complement of the Quaernan; slow to fire, but heavy hitting with a wide area of effect. Additionally, they have huge ranges, delivering powerful strikes over a long range."
 
