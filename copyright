@@ -1,0 +1,18 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+
+Upstream-Name: QuaernanHardpointsCarries
+Upstream-Contact: Zoura the Quaernan Guy <64111606+AvianGeneticist@users.noreply.github.com>
+Source: https://github.com/samrocketman/QuaernanHardpointsCarries
+
+Files: *
+Copyright: Zoura the Quaernan Guy
+License: GPL-3
+ An endless sky plugin that adds an extremely powerful set of ships and
+ missions accessed via a custom start, intended for testing other extremely
+ strong plugin factions or just generally playing around with.
+
+Files:
+ images/*
+Copyright: Zoura the Quaernan Guy
+License: CC-BY-SA-4.0
+ Images for ships and outfits of Quaernan ship and companion ships.
