@@ -1,4 +1,6 @@
-# Quaernan Start
+<p align=center><img alt="Quaernan 2x logo" src="https://raw.githubusercontent.com/samrocketman/QuaernanHardpointsCarries/main/icon%402x.png" /></p>
+
+<h1><p align=center>Endless Sky Plugin:<br />Quaernan Start</p></h1>
 
 Provides a custom new game start to Endless Sky.  This is a plugin for the game
 [Endless Sky][es].  This plugin is developed and tested against [Endless Sky
