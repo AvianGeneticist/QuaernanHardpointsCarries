@@ -113,8 +113,6 @@ outfit "long range autocannon shell"
 		"random velocity" 4
 		"lifetime" 70
 		"random lifetime" 5
-		"turn" 0
-		"homing" 1
 		"shield damage" 3
 		"hull damage" 6
 		"hit force" 2
@@ -161,28 +159,28 @@ outfit "Small Multi-Engine"
 	"mass" 185
 	"outfit space" -185
 	"engine capacity" -185
-	"thrust" 58.8
-	"thrusting energy" 3.6
-	"thrusting heat" 8.8
+	"thrust" 64.8
+	"thrusting energy" 3.9
+	"thrusting heat" 9.2
 	"flare sprite" "effect/ion flare/large"
 		"frame rate" 0.9
 	"flare sound" "ion large"
-	"reverse thrust" 58.8
-	"reverse thrusting energy" 3.6
-	"reverse thrusting heat" 8.8
+	"reverse thrust" 64.8
+	"reverse thrusting energy" 3.9
+	"reverse thrusting heat" 9.2
 	"reverse flare sprite" "effect/ion flare/large"
 		"frame rate" 0.9
 	"reverse flare sound" "ion large"
-	"turn" 3532
-	"turning energy" 5.6
-	"turning heat" 12.2
+	"turn" 3882
+	"turning energy" 5.9
+	"turning heat" 13.4
 	"steering flare sprite" "effect/ion flare/large"
 		"frame rate" 0.9
 	"steering flare sound" "ion large"
-	"afterburner thrust" 62.0
+	"afterburner thrust" 72.0
 	"afterburner fuel" .3
-	"afterburner energy" 5.1
-	"afterburner heat" 12.0
+	"afterburner energy" 5.6
+	"afterburner heat" 14.0
 	"afterburner effect" "ionic afterburner"
 	"ramscoop" 5
 	"force protection" 1

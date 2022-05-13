@@ -2,9 +2,9 @@ outfit "Hydrogen Energy Storage Unit"
 	category "Power"
 	cost 2100000000
 	thumbnail "outfit/core"
-	"mass" 1050
-	"outfit space" -1050
-	"energy capacity" 768000
+	"mass" 15000
+	"outfit space" -15000
+	"energy capacity" 12680000
 	"energy generation" 102.3
 	"heat generation" 178.9
 	"ion protection" 1
@@ -25,20 +25,20 @@ outfit "Hybrid Nuclear Crust"
 	category "Power"
 	cost 1400000000
 	thumbnail "outfit/core"
-	"mass" 950
-	"outfit space" -950
-	"energy generation" 417.2
-	"heat generation" 597.8
+	"mass" 2850
+	"outfit space" -2850
+	"energy generation" 1682.2
+	"heat generation" 3364.8
 	description "This is a downsizing of the Hybrid Nuclear Mantle, and is the smallest generation unit on the ship. Though small, it's still incredibly powerful and efficient, supplying the Quaernan with the little extra power it needs."
 	
 outfit "Hybrid Nuclear Mantle"
 	category "Power"
 	cost 4100000000
 	thumbnail "outfit/core"
-	"mass" 2025
-	"outfit space" -2025
-	"energy generation" 872.8
-	"heat generation" 1095.6
+	"mass" 8075
+	"outfit space" -8075
+	"energy generation" 6891.8
+	"heat generation" 9280.6
 	description "This is an interesting reactor configuration found aboard the Quaernan. It is a hybrid breeder/fusion reactor, with heat from the fission reactions being used to superheat the fusion chamber, increasing space and heat efficiency."
 	description "Of course, the obvious downside is the reactor's size, taking up the same amount of space as some heavy warships."
 	
@@ -46,9 +46,9 @@ outfit "Hybrid Nuclear Core"
 	category "Power"
 	cost 12100000000
 	thumbnail "outfit/core"
-	"mass" 4075
-	"outfit space" -4075
-	"energy generation" 2512.7
-	"heat generation" 2895.6
-	description "As if the Mantle wasn't enough, the Hybrid Nuclear Core seems to be an even larger implementation of a similar system, with further heat and space-efficiency to boot. Though it's nearly double the size, it produces almost triple the power of the Mantle, with a significantly higher heat efficiency to boot."
+	"mass" 20500
+	"outfit space" -20500
+	"energy generation" 18072.7
+	"heat generation" 20795.6
+	description "As if the Mantle wasn't enough, the Hybrid Nuclear Core seems to be an even larger implementation of a similar system, with further heat and space-efficiency to boot. Though it's nearly double the size, it produces almost triple the power of the Mantle, with a significantly higher heat efficiency."
 	

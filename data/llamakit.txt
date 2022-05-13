@@ -6,6 +6,8 @@ outfit "Missile Counterfield"
 	"outfit space" -80
 	"weapon capacity" -80
 	"turret mounts" -1
+	"energy consumption" 22
+	"heat generation" 11
 	weapon
 		"hardpoint sprite" "hardpoint/heavy anti-missile"
 		"hardpoint offset" 5.
@@ -14,8 +16,6 @@ outfit "Missile Counterfield"
 		"velocity" 215
 		"lifetime" 1
 		"reload" 1
-		"energy consumption" 22
-		"heat generation" 11
 	description "This is an odd outfit, resmebling no tech like any tech humanity has used before. It constantly agitates local space, not strong enough to damage ships, but enough to rustle the insides of missiles and cause them to prematurely explode."
 	description "Sadly, its effect only works to a relatively limited range."
 
@@ -187,8 +187,6 @@ outfit "punchy autocannon shell"
 		"random velocity" 2
 		"lifetime" 70
 		"random lifetime" 5
-		"turn" 0
-		"homing" 1
 		"shield damage" 4.5
 		"hull damage" 8
 		"hit force" 5

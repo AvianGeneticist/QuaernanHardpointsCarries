@@ -1,273 +1,993 @@
 category "ship"
 	"Screener"
 	"Destroyer"
+	"Cruiser"
 
 category "bay type"
 	"Screener"
 	"Destroyer"
+	"Cruiser"
+	
+shipyard "Basic Ships"
+	"Quaernan"
+	"Alpaca"
+	"Llama"
+	"Casparna"
 
 ship "Quaernan"
-	sprite "ship/quaernan"
-	thumbnail "ship/thumbquaernan"
+	sprite "ship/quaernanV2"
+	thumbnail "ship/thumbquaernanV2"
 	attributes
 		licenses
 			City-Ship
 		category "Heavy Warship"
 		"cost" 1000000000000
-		"shields" 528500
-		"hull" 316500
+		"shields" 2328500
+		"hull" 1671500
 		"required crew" 2794
-		"bunks" 12995
-		"mass" 67890
-		"drag" 715.5
-		"heat dissipation" .34
-		"fuel capacity" 9600
-		"cargo space" 49680
-		"outfit space" 62780
-		"weapon capacity" 23905
-		"engine capacity" 6255
+		"bunks" 114995
+		"mass" 1467890
+		"drag" 18715.5
+		"heat dissipation" .2
+		"fuel capacity" 9900
+		"cargo space" 1098765
+		"outfit space" 837400
+		"weapon capacity" 241460
+		"engine capacity" 153215
 		weapon
 			"blast radius" 1000000
 			"shield damage" 9090909090
 			"hull damage" 5050505050
 			"hit force" 213900
 	outfits
-		"Cascade Cannon" 3
-		"Siphon Stream" 2
-		"Beehive Cannon" 3
+		"Cascade Cannon" 5
+		"Siphon Stream" 4
+		"Lava Flow" 2
+		
+		"Beehive Cannon" 4
 		"Induction Missile Launcher" 2
 		"Antimatter Missile Launcher"
 		
 		"Rift Tearer"
-		"Nova Turret"
-		"Pulsar Beam" 2
-		"Splinter Turret" 3
-		"Scatter Spire" 3
-		"Tractor Beam" 4
-		"Venom Turret" 4
+		"Nova Turret" 4
+		"Pulsar Beam" 7
+
+		"Hwacha Turret" 10
+		"Scatter Spire" 10
+		"Tractor Beam" 12
+		"Venom Turret" 14
+		"Skeet Turret" 16
 		
-		"Marker Turret" 10
-		"Artillery Turret" 6
+		"Marker Turret" 34
+		"Artillery Turret" 27
+		"Splinter Turret" 20
 		
-		"Missile Compensator" 2
-		"Missile Defense System" 8
+		"Retired PDS" 4
+		"Missile Compensator" 12
+		"Missile Defense System" 32
 		
-		"Hybrid Nuclear Core" 3
-		"Hybrid Nuclear Mantle"
-		"Hybrid Nuclear Crust"
-		"Thermocouple Weave"
-		"Hydrogen Energy Storage Unit"
+		"Hybrid Nuclear Core" 4
+		"Hybrid Nuclear Mantle" 3
+		"Hybrid Nuclear Crust" 2
+		"Thermocouple Weave" 3
+		"Hydrogen Energy Storage Unit" 2
 		
 		"Axonal Regenerator"
+		"Regenerator Response Matrix"
+		"Giant Response Regenerator" 3
+		"Dwarf Response Regenerator"
 		"Transitive Regenerator" 2
 		"Shield Plating System"
-		"Self-Maintenance Array"
-		"Repair bay "Screener" Docking System"
-		"Reactive Armor"
+		
+		"Self-Maintenance Array" 2
+		"Hull Maintenance Field"
+		"Repair Drone Docking System" 3
+		"Engineering System" 5
+		"Reactive Armor" 2
 		
 		"Heat Redistribution Web" 4
-		"Heatshield" 2
+		"Titan Cooler" 8
+		"Heatshield" 5
 		"Artificial Ecosystem"
-		"Fuel Constitution Unit" 2
-		"Battlefield Anaylsis Array"
-		"Roman Candle" 6185
 		
-		"Waveform Thruster"
-		"Waveform Steering"
+		"Deuterium Synthesizer" 2
+		"Fuel Constitution Unit" 3
+		`"Fuel Hump"` 4
+		
+		"Temporal Defense System"
+		"Cloaking Field System"
+		"Battlefield Anaylsis Array"
+		"Defense System" 125
+		"Roman Candle" 16185
+		
+		"Waveform Thruster" 4
+		"Large Waveform Thruster" 6
+		
+		"Waveform Stabilizer" 2
+		"Large Waveform Stabilizer" 3
+		
+		"Waveform Steering" 3
+		"Large Waveform Steering" 3
+		
 		"Exotic Engines"
-		"Quasar Afterburner" 2
+		"Quasar Afterburner" 10
 		"Rift Drive"
 	
-	gun -2.5 -593.5 "Induction Missile Launcher"
-	gun 20.5 -593.5 "Induction Missile Launcher"
-	gun 44 -558.5 "Cascade Cannon"
-	gun 50.5 -555 "Cascade Cannon"
-	gun -82.5 -392 "Beehive Cannon"
-	gun 97.5 -255 "Siphon Stream"
-	gun 118 -172.5 "Siphon Stream"
-	gun 278.5 43 "Cascade Cannon"
-	gun 301.5 41.5 "Beehive Cannon"
-	gun -329.5 99 "Beehive Cannon"
-	gun -325 332 "Antimatter Missile Launcher"
-	turret -142.5 145.5 "Rift Tearer"
-	turret 43.5 -494.5 "Artillery Turret"
-	turret -32.5 -403 "Marker Turret"
-	turret -48.5 -402.5 "Missile Defense System"
-	turret 88 -412.5 "Splinter Turret"
-	turret 38 -388.5 "Marker Turret"
-	turret 73.5 -357 "Missile Compensator"
-	turret -69.5 -332 "Marker Turret"
-	turret -56 -288 "Venom Turret"
-	turret -35 -287 "Artillery Turret"
-	turret 40 -230.5 "Tractor Beam"
-	turret -27 -170.5 "Nova Turret"
-	turret 88 -144.5 "Missile Defense System"
-	turret 71.5 -130 "Scatter Spire"
-	turret -48.5 -39.5 "Marker Turret"
-	turret -203.5 -3 "Pulsar Beam"
-	turret -5 -2.5 "Marker Turret"
-	turret 52.5 70 "Missile Defense System"
-	turret 268.5 114 "Splinter Turret"
-	turret 310 129 "Venom Turret"
-	turret -209 104 "Missile Defense System"
-	turret -11.5 105 "Tractor Beam"
-	turret 53.5 143 "Missile Compensator"
-	turret 162.5 169.5 "Pulsar Beam"
-	turret -317.5 159.5 "Missile Defense System"
-	turret -301.5 204.5 "Tractor Beam"
-	turret -282 204.5 "Scatter Spire"
-	turret 310.5 200 "Artillery Turret"
-	turret 270 270 "Marker Turret"
-	turret 216 310.5 "Missile Defense System"
-	turret 165.5 327.5 "Marker Turret"
-	turret 15.5 333 "Splinter Turret"
-	turret -76 324.5 "Tractor Beam"
-	turret -101.5 326.5 "Artillery Turret"
-	turret -274 322.5 "Venom Turret"
-	turret -314 392.5 "Scatter Spire"
-	turret -231 432.5 "Artillery Turret"
-	turret -231.5 463 "Marker Turret"
-	turret -232 493 "Missile Defense System"
-	turret -91 420 "Marker Turret"
-	turret -11 405.5 "Venom Turret"
-	turret 70 443 "Artillery Turret"
-	turret -77 466.5 "Marker Turret"
-	turret -296 553 "Missile Defense System"
-	engine 86.5 -89.5
-	engine 108 -89
-	engine 299.5 297.5
-	engine 281.5 296.5
-	engine 247.5 336
-	engine 227 335.5
-	engine 150.5 430
-	engine 115 428.5
-	engine 61.5 539.5
-	engine 41.5 539.5
-	engine -25 506
-	engine -60 507
-	engine -244.5 594.5
-	engine -279 594.5
-	bay "Screener" 56.5 -307.5
-	bay "Screener" 56.5 -307.5
-	bay "Screener" 56.5 -289
-	bay "Screener" 56.5 -289
-	bay "Screener" 85 38
-	bay "Screener" 85 38
-	bay "Screener" 78.5 47
-	bay "Screener" 78.5 47
-	bay "Screener" 91.5 58
-	bay "Screener" 91.5 58
-	bay "Screener" 79.5 65
-	bay "Screener" 79.5 65
-	bay "Screener" 85.5 76
-	bay "Screener" 85.5 76
-	bay "Screener" 181.5 95.5
-	bay "Screener" 181.5 95.5
-	bay "Screener" 191.5 104
-	bay "Screener" 191.5 104
-	bay "Screener" 201 110.5
-	bay "Screener" 201 110.5
-	bay "Screener" 199.5 91.5
-	bay "Screener" 199.5 91.5
-	bay "Screener" 209.5 101
-	bay "Screener" 209.5 101
-	bay "Screener" 220 108.5
-	bay "Screener" 220 108.5
-	bay "Screener" 217.5 90
-	bay "Screener" 217.5 90
-	bay "Screener" 228 97.5
-	bay "Screener" 228 97.5
-	bay "Screener" 238 107.5
-	bay "Screener" 238 107.5
-	bay "Screener" 236 88
-	bay "Screener" 246 99.5
-	bay "Screener" 254.5 92
-	bay "Screener" 180 250.5
-	bay "Screener" 180 250.5
-	bay "Screener" 180.5 269
-	bay "Screener" 180.5 269
-	bay "Screener" -161.5 327
-	bay "Screener" -161.5 327
-	bay "Screener" -153.5 334
-	bay "Screener" -153.5 334
-	bay "Screener" -148 343.5
-	bay "Screener" -148 343.5
-	bay "Screener" -163.5 344.5
-	bay "Screener" -163.5 344.5
-	bay "Screener" -155.5 353
-	bay "Screener" -155.5 353
-	bay "Screener" -147.5 360.5
-	bay "Screener" -147.5 360.5
-	bay "Screener" -163.5 362
-	bay "Screener" -163.5 362
-	bay "Screener" -155 370.5
-	bay "Screener" -155 370.5
-	bay "Screener" -147 379
-	bay "Screener" -147 379
-	bay "Screener" -163.5 381
-	bay "Screener" -163.5 381
-	bay "Screener" -154 388.5
-	bay "Screener" -154 388.5
-	bay "Screener" -162.5 398.5
-	bay "Screener" -162.5 398.5
-	bay "Screener" -277.5 -84.5
-	bay "Screener" -277.5 -84.5
-	bay "Screener" -267.5 -76.5
-	bay "Screener" -267.5 -76.5
-	bay "Screener" -257.5 -68.5
-	bay "Screener" -257.5 -68.5
-	bay "Screener" -259 -85.5
-	bay "Screener" -259 -85.5
-	bay "Screener" -250.5 -78
-	bay "Screener" -250.5 -78
-	bay "Screener" -239 -69.5
-	bay "Screener" -239 -69.5
-	bay "Screener" -241 -86
-	bay "Screener" -241 -86
-	bay "Screener" -231.5 -79
-	bay "Screener" -231.5 -79
-	bay "Screener" -221.5 -68.5
-	bay "Screener" -221.5 -68.5
-	bay "Screener" -223.5 -85.5
-	bay "Screener" -223.5 -85.5
-	bay "Screener" -213 -76.5
-	bay "Screener" -213 -76.5
-	bay "Screener" -205.5 -83.5
-	bay "Destroyer" -36 -486
-	bay "Destroyer" -1 -451.5
-	bay "Destroyer" 85.5 -401.5
-	bay "Destroyer" 99 -360.5
-	bay "Destroyer" -73 -352
-	bay "Destroyer" 52.5 -328.5
-	bay "Destroyer" 58.5 -260.5
-	bay "Destroyer" 16.5 -240
-	bay "Destroyer" 17 -213.5
-	bay "Destroyer" -11 -140
-	bay "Destroyer" -291 4
-	bay "Destroyer" 81 -25.5
-	bay "Destroyer" 114 81
-	bay "Destroyer" 135 80.5
-	bay "Destroyer" 154 81.5
-	bay "Destroyer" 311 111
-	bay "Destroyer" 295.5 163.5
-	bay "Destroyer" 143 226
-	bay "Destroyer" 164.5 342
-	bay "Destroyer" 259 306.5
-	bay "Destroyer" -10.5 419.5
-	bay "Destroyer" -40.5 354
-	bay "Destroyer" -134.5 269
-	bay "Destroyer" -228.5 160
-	bay "Destroyer" -136 38.5
-	bay "Destroyer" -30 161
-	bay "Destroyer" -52 24
-	bay "Destroyer" -249.5 22
-	bay "Destroyer" -290 69.5
-	bay "Destroyer" -318.5 129
-	bay "Destroyer" -312.5 367.5
-	bay "Destroyer" -306 471.5
-	bay "Destroyer" -283.5 471
-	bay "Destroyer" -152.5 170
-	bay "Destroyer" -135 169
+	gun 87 -1306 "Lava Flow"
+	gun 109.5 -1305.5 "Induction Missile Launcher"
+	gun 133 -1271 "Siphon Stream"
+	gun 138.5 -1267.5 "Antimatter Missile Launcher"
+	gun 8 -1106 "Siphon Stream"
+	gun 187 -970 "Cascade Cannon"
+	gun 208 -883.5 "Beehive Cannon"
+	gun 368 -667.5 "Cascade Cannon"
+	gun 390 -669 "Lava Flow"
+	gun -273 -437 "Cascade Cannon"
+	gun -249 -436 "Beehive Cannon"
+	gun -351 -236 "Induction Missile Launcher"
+	gun 386 -99 "Siphon Stream"
+	gun 405 -14 "Beehive Cannon"
+	gun 568 205 "Cascade Cannon"
+	gun 589 203 "Siphon Stream"
+	gun -598 255 "Beehive Cannon"
+	gun -595 488 "Cascade Cannon"
+	turret -52 -565 "Rift Tearer"
+	turret 134 -1207 "Nova Turret"
+	turret 179 -1124
+	turret 128 -1099 "Missile Defense System"
+	turret 19 -1045 "Hwacha Turret"
+	turret 33 -1000 "Nova Turret"
+	turret 54 -999 "Artillery Turret"
+	turret 128 -942 "Pulsar Beam"
+	turret 63 -881 "Nova Turret"
+	turret 159 -842 "Missile Defense System"
+	turret 40 -751 "Tractor Beam"
+	turret 84 -712 "Splinter Turret"
+	turret -112 -714 "Venom Turret"
+	turret 141 -641 "Nova Turret"
+	turret -121 -608
+	turret 79 -607 "Missile Defense System"
+	turret 399 -582 "Artillery Turret"
+	turret -228 -552 "Scatter Spire"
+	turret 143 -570 "Skeet Turret"
+	turret 252 -542 "Retired PDS"
+	turret -213 -509 "Splinter Turret"
+	turret -192 -508 "Scatter Spire"
+	turret 80 -449 "Tractor Beam"
+	turret 359 -441 "Missile Compensator"
+	turret -185 -388 "Missile Defense System"
+	turret -12 -386 "Hwacha Turret"
+	turret 14 -390 "Artillery Turret"
+	turret 105 -378 "Scatter Spire"
+	turret 254 -385 "Skeet Turret"
+	turret 306 -400 "Pulsar Beam"
+	turret 331 -335
+	turret -223 -319 "Missile Defense System"
+	turret -1 -291
+	turret 78 -305 "Tractor Beam"
+	turret 159 -268 "Artillery Turret"
+	turret 375 -252 "Splinter Turret"
+	turret 325 -229
+	turret -315 -246 "Venom Turret"
+	turret -301 -246 "Venom Turret"
+	turret -211 -275 "Scatter Spire"
+	turret -190 -274 "Missile Defense System"
+	turret -142 -278
+	turret -141 -247 "Missile Compensator"
+	turret -141 -218 "Artillery Turret"
+	turret -1 -290 "Hwacha Turret"
+	turret 76 -307 "Missile Defense System"
+	turret 159 -268 "Artillery Turret"
+	turret 325 -227 "Retired PDS"
+	turret 374 -252 "Pulsar Beam"
+	turret 11 -245 "Tractor Beam"
+	turret 12 -216 "Splinter Turret"
+	turret -339 -176 "Skeet Turret"
+	turret -208 -158 "Artillery Turret"
+	turret -193 -108 "Missile Compensator"
+	turret -111 -88
+	turret -62 -137 "Artillery Turret"
+	turret -30 -107
+	turret -24 -87 "Missile Defense System"
+	turret 26 -159
+	turret 38 -158 "Tractor Beam"
+	turret 27 -127 "Venom Turret"
+	turret 39 -128 "Splinter Turret"
+	turret 27 -98 "Artillery Turret"
+	turret 40 -98 "Skeet Turret"
+	turret 89 -107 "Scatter Spire"
+	turret 174 -168 "Missile Defense System"
+	turret 218 -173 "Pulsar Beam"
+	turret 232 -129 "Artillery Turret"
+	turret 252 -128 "Tractor Beam"
+	turret 326 -71 "Missile Compensator"
+	turret -271 5 "Venom Turret"
+	turret -257 6 "Splinter Turret"
+	turret -187 21 "Artillery Turret"
+	turret 82 -2 "Skeet Turret"
+	turret 174 -9 "Retired PDS"
+	turret 326 -71 "Venom Turret"
+	turret 374 14
+	turret 359 28 "Missile Defense System"
+	turret -317 118 "Artillery Turret"
+	turret -260 121 "Hwacha Turret"
+	turret -81 80 "Splinter Turret"
+	turret -60 85
+	turret -60 114 "Skeet Turret"
+	turret -59 145 "Missile Compensator"
+	turret 184 113
+	turret 238 120 "Artillery Turret"
+	turret -474 153 "Skeet Turret"
+	turret -253 238 "Scatter Spire"
+	turret -185 177 "Retired PDS"
+	turret -252 240 "Splinter Turret"
+	turret 179 220 "Venom Turret"
+	turret 277 264 "Missile Defense System"
+	turret 339 230 "Artillery Turret"
+	turret 277 263 "Tractor Beam"
+	turret -587 315 "Missile Defense System"
+	turret -478 261 "Artillery Turret"
+	turret -422 287
+	turret -402 286 "Pulsar Beam"
+	turret -421 306 "Missile Defense System"
+	turret -404 306 "Hwacha Turret"
+	turret -422 325 "Missile Compensator"
+	turret -403 324 "Artillery Turret"
+	turret -217 298
+	turret -105 327 "Missile Defense System"
+	turret 30 289 "Skeet Turret"
+	turret 104 321
+	turret 179 378 "Missile Defense System"
+	turret 277 264 "Skeet Turret"
+	turret 340 302 "Splinter Turret"
+	turret 451 330 "Tractor Beam"
+	turret 597 291 "Retired PDS"
+	turret 597 360 "Missile Compensator"
+	turret -279 419
+	turret 113 438 "Venom Turret"
+	turret 278 422 "Artillery Turret"
+	turret 556 432 "Missile Defense System"
+	turret 504 470
+	turret -543 479 "Skeet Turret"
+	turret -368 484 "Missile Compensator"
+	turret -345 481 "Pulsar Beam"
+	turret -253 490 "Hwacha Turret"
+	turret -105 484 "Missile Defense System"
+	turret -54 467 "Hwacha Turret"
+	turret 14 482 "Splinter Turret"
+	turret 114 438 "Missile Defense System"
+	turret 278 423
+	turret 503 471 "Missile Defense System"
+	turret 453 487 "Tractor Beam"
+	turret 386 548 "Splinter Turret"
+	turret 303 493 "Missile Compensator"
+	turret 275 565 "Artillery Turret"
+	turret 196 581 "Missile Defense System"
+	turret 56 594 "Artillery Turret"
+	turret 56 624
+	turret 56 655 "Venom Turret"
+	turret 11 598 "Hwacha Turret"
+	turret -10 596 "Scatter Spire"
+	turret -2 567 "Splinter Turret"
+	turret -26 552 "Skeet Turret"
+	turret -128 599 "Missile Defense System"
+	turret -197 600 "Skeet Turret"
+	turret -280 562
+	turret -359 576 "Splinter Turret"
+	turret -500 591
+	turret -500 620 "Skeet Turret"
+	turret -498 649 "Missile Defense System"
+	turret -546 594 "Artillery Turret"
+	turret -566 595
+	turret -566 711 "Missile Defense System"
+	turret -411 759
+	turret -412 788 "Skeet Turret"
+	turret -388 737 "Missile Compensator"
+	turret -226 745 "Venom Turret"
+	turret -127 756
+	turret -6 714 "Splinter Turret"
+	turret -69 783 "Hwacha Turret"
+	turret 56 765 "Tractor Beam"
+	turret 122 705 "Missile Defense System"
+	turret 145 794 "Pulsar Beam"
+	turret 286 719
+	turret 364 705 "Scatter Spire"
+	turret 448 743 "Artillery Turret"
+	turret -476 849 "Splinter Turret"
+	turret -342 841 "Missile Defense System"
+	turret -260 805
+	turret -150 810 "Skeet Turret"
+	turret -70 823 "Missile Defense System"
+	turret 19 923 "Venom Turret"
+	turret 79 853 "Splinter Turret"
+	turret 145 904 "Missile Compensator"
+	turret 264 893 "Artillery Turret"
+	turret 330 832
+	turret 452 840 "Missile Defense System"
+	turret 406 813
+	turret 453 912 "Splinter Turret"
+	turret 413 983 "Artillery Turret"
+	turret 357 1021 "Missile Defense System"
+	turret -373 894 "Hwacha Turret"
+	turret -299 875 "Missile Compensator"
+	turret -157 915
+	turret -140 916 "Scatter Spire"
+	turret 21 923 "Missile Defense System"
+	turret 135 971
+	turret 160 1043 "Artillery Turret"
+	turret 212 1083 "Venom Turret"
+	turret 214 1153 "Splinter Turret"
+	turret 54 1131 "Tractor Beam"
+	turret -330 1016 "Missile Defense System"
+	turret -370 1087 "Artillery Turret"
+	turret -355 1131 "Skeet Turret"
+	turret -336 1133
+	turret -169 1103 "Tractor Beam"
+	turret -147 1116 "Artillery Turret"
+	turret -154 1148 "Missile Defense System"
+	turret -136 1148 "Venom Turret"
+	turret -87 1144 "Splinter Turret"
+	turret -88 1173
+	turret -87 1205 "Splinter Turret"
+	turret -287 1130 "Scatter Spire"
+	turret -287 1158 "Missile Defense System"
+	turret -285 1186
+	turret -352 1250 "Artillery Turret"
+	turret -151 1265 "Venom Turret"
+	engine 177 -800
+	engine 196 -801
+	engine 371 -415
+	engine 388 -415
+	engine 376 72
+	engine 396 71
+	engine 586 458
+	engine -544 750
+	engine -459 891
+	engine -425 889
+	engine -337 1290
+	engine -300 1290
+	engine -136 1306
+	engine -98 1304
+	engine 83 1216
+	engine 117 1217
+	engine 183 1251
+	engine 202 1249
+	engine 258 1139
+	engine 294 1140
+	engine 369 1048
+	engine 391 1048
+	engine 425 1008
+	engine 444 1008
+	bay "Screener" 147 -1009
+	bay "Screener" 147 -1009
+	bay "Screener" -22 -805
+	bay "Screener" -22 -805
+	bay "Screener" -22 -805
+	bay "Screener" -22 -805
+	bay "Screener" -22 -805
+	bay "Screener" -22 -805
+	bay "Screener" -22 -805
+	bay "Screener" -22 -805
+	bay "Screener" -22 -805
+	bay "Screener" -22 -805
+	bay "Screener" -22 -805
+	bay "Screener" -22 -805
+	bay "Screener" -149.5 -787
+	bay "Screener" -149.5 -787
+	bay "Screener" -149.5 -787
+	bay "Screener" -149.5 -787
+	bay "Screener" -149.5 -787
+	bay "Screener" -149.5 -787
+	bay "Screener" -149.5 -787
+	bay "Screener" -149.5 -787
+	bay "Screener" -149.5 -787
+	bay "Screener" -149.5 -787
+	bay "Screener" -149.5 -787
+	bay "Screener" -149.5 -787
+	bay "Screener" 173 -658
+	bay "Screener" 173 -658
+	bay "Screener" 173 -658
+	bay "Screener" 173 -658
+	bay "Screener" 173 -658
+	bay "Screener" 305 -611
+	bay "Screener" 305 -611
+	bay "Screener" 305 -611
+	bay "Screener" 305 -611
+	bay "Screener" 305 -611
+	bay "Screener" 305 -611
+	bay "Screener" 305 -611
+	bay "Screener" 305 -611
+	bay "Screener" 305 -611
+	bay "Screener" 305 -611
+	bay "Screener" 305 -611
+	bay "Screener" 305 -611
+	bay "Screener" 98 -518.5
+	bay "Screener" 98 -518.5
+	bay "Screener" 133.5 -458
+	bay "Screener" 133.5 -458
+	bay "Screener" 274.5 -452.5
+	bay "Screener" 274.5 -452.5
+	bay "Screener" -58.5 -352
+	bay "Screener" -58.5 -352
+	bay "Screener" -58.5 -352
+	bay "Screener" -58.5 -352
+	bay "Screener" -58.5 -352
+	bay "Screener" -58.5 -352
+	bay "Screener" -58.5 -352
+	bay "Screener" -58.5 -352
+	bay "Screener" -58.5 -352
+	bay "Screener" -58.5 -352
+	bay "Screener" -58.5 -352
+	bay "Screener" -58.5 -352
+	bay "Screener" -398.5 -135.5
+	bay "Screener" -398.5 -135.5
+	bay "Screener" -398.5 -135.5
+	bay "Screener" -398.5 -135.5
+	bay "Screener" -398.5 -135.5
+	bay "Screener" -398.5 -135.5
+	bay "Screener" -398.5 -135.5
+	bay "Screener" -398.5 -135.5
+	bay "Screener" -398.5 -135.5
+	bay "Screener" -398.5 -135.5
+	bay "Screener" -398.5 -135.5
+	bay "Screener" -398.5 -135.5
+	bay "Screener" -270 -161
+	bay "Screener" -270 -161
+	bay "Screener" -270 -161
+	bay "Screener" -270 -161
+	bay "Screener" -270 -161
+	bay "Screener" -270 -161
+	bay "Screener" -270 -161
+	bay "Screener" -270 -161
+	bay "Screener" -270 -161
+	bay "Screener" -270 -161
+	bay "Screener" -270 -161
+	bay "Screener" -270 -161
+	bay "Screener" 197 -79
+	bay "Screener" 197 -79
+	bay "Screener" -506.5 80
+	bay "Screener" -506.5 80
+	bay "Screener" -506.5 80
+	bay "Screener" -506.5 80
+	bay "Screener" -506.5 80
+	bay "Screener" -506.5 80
+	bay "Screener" -506.5 80
+	bay "Screener" -506.5 80
+	bay "Screener" -506.5 80
+	bay "Screener" -506.5 80
+	bay "Screener" -506.5 80
+	bay "Screener" -506.5 80
+	bay "Screener" -506.5 80
+	bay "Screener" -506.5 80
+	bay "Screener" -506.5 80
+	bay "Screener" -506.5 80
+	bay "Screener" -506.5 80
+	bay "Screener" -506.5 80
+	bay "Screener" -382 77.5
+	bay "Screener" -382 77.5
+	bay "Screener" -382 77.5
+	bay "Screener" -382 77.5
+	bay "Screener" -382 77.5
+	bay "Screener" -382 77.5
+	bay "Screener" -382 77.5
+	bay "Screener" -382 77.5
+	bay "Screener" -382 77.5
+	bay "Screener" -382 77.5
+	bay "Screener" -382 77.5
+	bay "Screener" -382 77.5
+	bay "Screener" -16.5 91
+	bay "Screener" -16.5 91
+	bay "Screener" -16.5 91
+	bay "Screener" -16.5 91
+	bay "Screener" -16.5 91
+	bay "Screener" -16.5 91
+	bay "Screener" -16.5 91
+	bay "Screener" -16.5 91
+	bay "Screener" -16.5 91
+	bay "Screener" -16.5 91
+	bay "Screener" -16.5 91
+	bay "Screener" -16.5 91
+	bay "Screener" -34.5 222.5
+	bay "Screener" -34.5 222.5
+	bay "Screener" -34.5 222.5
+	bay "Screener" -34.5 222.5
+	bay "Screener" -34.5 222.5
+	bay "Screener" -34.5 222.5
+	bay "Screener" -34.5 222.5
+	bay "Screener" -34.5 222.5
+	bay "Screener" -34.5 222.5
+	bay "Screener" -34.5 222.5
+	bay "Screener" -34.5 222.5
+	bay "Screener" -34.5 222.5
+	bay "Screener" 65 201.5
+	bay "Screener" 65 201.5
+	bay "Screener" 65 201.5
+	bay "Screener" 65 201.5
+	bay "Screener" 65 201.5
+	bay "Screener" 65 201.5
+	bay "Screener" 65 201.5
+	bay "Screener" 65 201.5
+	bay "Screener" 65 201.5
+	bay "Screener" 65 201.5
+	bay "Screener" 65 201.5
+	bay "Screener" 65 201.5
+	bay "Screener" 372.5 217
+	bay "Screener" 372.5 217
+	bay "Screener" 372.5 217
+	bay "Screener" 372.5 217
+	bay "Screener" 372.5 217
+	bay "Screener" 503 259
+	bay "Screener" 503 259
+	bay "Screener" 503 259
+	bay "Screener" 503 259
+	bay "Screener" 503 259
+	bay "Screener" 503 259
+	bay "Screener" 503 259
+	bay "Screener" 503 259
+	bay "Screener" 503 259
+	bay "Screener" 503 259
+	bay "Screener" 503 259
+	bay "Screener" 503 259
+	bay "Screener" 196.5 308
+	bay "Screener" 196.5 308
+	bay "Screener" -256 350
+	bay "Screener" -256 350
+	bay "Screener" -225 406
+	bay "Screener" -225 406
+	bay "Screener" -225 406
+	bay "Screener" -82 415
+	bay "Screener" -82 415
+	bay "Screener" 298 355
+	bay "Screener" 298 355
+	bay "Screener" 333 411
+	bay "Screener" 333 411
+	bay "Screener" 333 411
+	bay "Screener" 470 418
+	bay "Screener" 470 418
+	bay "Screener" -418 522
+	bay "Screener" -418 522
+	bay "Screener" -418 522
+	bay "Screener" -418 522
+	bay "Screener" -418 522
+	bay "Screener" -418 522
+	bay "Screener" -418 522
+	bay "Screener" -418 522
+	bay "Screener" -418 522
+	bay "Screener" -418 522
+	bay "Screener" -418 522
+	bay "Screener" -418 522
+	bay "Screener" 137 524
+	bay "Screener" 137 524
+	bay "Screener" 137 524
+	bay "Screener" 137 524
+	bay "Screener" 137 524
+	bay "Screener" 137 524
+	bay "Screener" 137 524
+	bay "Screener" 137 524
+	bay "Screener" 137 524
+	bay "Screener" 137 524
+	bay "Screener" 137 524
+	bay "Screener" 137 524
+	bay "Screener" 560 555
+	bay "Screener" 560 555
+	bay "Screener" 374 820
+	bay "Screener" 374 820
+	bay "Screener" 325 968
+	bay "Screener" 325 968
+	bay "Screener" 187 963
+	bay "Screener" 187 963
+	bay "Screener" 187 963
+	bay "Screener" -7 1075
+	bay "Screener" -7 1075
+	bay "Screener" -7 1075
+	bay "Screener" -7 1075
+	bay "Screener" -7 1075
+	bay "Screener" -7 1075
+	bay "Screener" -7 1075
+	bay "Screener" -7 1075
+	bay "Screener" -7 1075
+	bay "Screener" -7 1075
+	bay "Screener" -7 1075
+	bay "Screener" -7 1075
+	bay "Screener" -205 1054
+	bay "Screener" -205 1054
+	bay "Screener" -205 1054
+	bay "Screener" -205 1054
+	bay "Screener" -205 1054
+	bay "Screener" -205 1054
+	bay "Screener" -205 1054
+	bay "Screener" -205 1054
+	bay "Screener" -205 1054
+	bay "Screener" -205 1054
+	bay "Screener" -205 1054
+	bay "Screener" -205 1054
+	bay "Screener" 147 -1009
+	bay "Screener" 147 -1009
+	bay "Screener" -22 -805
+	bay "Screener" -22 -805
+	bay "Screener" -22 -805
+	bay "Screener" -22 -805
+	bay "Screener" -22 -805
+	bay "Screener" -22 -805
+	bay "Screener" -22 -805
+	bay "Screener" -22 -805
+	bay "Screener" -22 -805
+	bay "Screener" -22 -805
+	bay "Screener" -22 -805
+	bay "Screener" -22 -805
+	bay "Screener" -149.5 -787
+	bay "Screener" -149.5 -787
+	bay "Screener" -149.5 -787
+	bay "Screener" -149.5 -787
+	bay "Screener" -149.5 -787
+	bay "Screener" -149.5 -787
+	bay "Screener" -149.5 -787
+	bay "Screener" -149.5 -787
+	bay "Screener" -149.5 -787
+	bay "Screener" -149.5 -787
+	bay "Screener" -149.5 -787
+	bay "Screener" -149.5 -787
+	bay "Screener" 173 -658
+	bay "Screener" 173 -658
+	bay "Screener" 173 -658
+	bay "Screener" 173 -658
+	bay "Screener" 173 -658
+	bay "Screener" 305 -611
+	bay "Screener" 305 -611
+	bay "Screener" 305 -611
+	bay "Screener" 305 -611
+	bay "Screener" 305 -611
+	bay "Screener" 305 -611
+	bay "Screener" 305 -611
+	bay "Screener" 305 -611
+	bay "Screener" 305 -611
+	bay "Screener" 305 -611
+	bay "Screener" 305 -611
+	bay "Screener" 305 -611
+	bay "Screener" 98 -518.5
+	bay "Screener" 98 -518.5
+	bay "Screener" 133.5 -458
+	bay "Screener" 133.5 -458
+	bay "Screener" 274.5 -452.5
+	bay "Screener" 274.5 -452.5
+	bay "Screener" -58.5 -352
+	bay "Screener" -58.5 -352
+	bay "Screener" -58.5 -352
+	bay "Screener" -58.5 -352
+	bay "Screener" -58.5 -352
+	bay "Screener" -58.5 -352
+	bay "Screener" -58.5 -352
+	bay "Screener" -58.5 -352
+	bay "Screener" -58.5 -352
+	bay "Screener" -58.5 -352
+	bay "Screener" -58.5 -352
+	bay "Screener" -58.5 -352
+	bay "Screener" -398.5 -135.5
+	bay "Screener" -398.5 -135.5
+	bay "Screener" -398.5 -135.5
+	bay "Screener" -398.5 -135.5
+	bay "Screener" -398.5 -135.5
+	bay "Screener" -398.5 -135.5
+	bay "Screener" -398.5 -135.5
+	bay "Screener" -398.5 -135.5
+	bay "Screener" -398.5 -135.5
+	bay "Screener" -398.5 -135.5
+	bay "Screener" -398.5 -135.5
+	bay "Screener" -398.5 -135.5
+	bay "Screener" -270 -161
+	bay "Screener" -270 -161
+	bay "Screener" -270 -161
+	bay "Screener" -270 -161
+	bay "Screener" -270 -161
+	bay "Screener" -270 -161
+	bay "Screener" -270 -161
+	bay "Screener" -270 -161
+	bay "Screener" -270 -161
+	bay "Screener" -270 -161
+	bay "Screener" -270 -161
+	bay "Screener" -270 -161
+	bay "Screener" 197 -79
+	bay "Screener" 197 -79
+	bay "Screener" -506.5 80
+	bay "Screener" -506.5 80
+	bay "Screener" -506.5 80
+	bay "Screener" -506.5 80
+	bay "Screener" -506.5 80
+	bay "Screener" -506.5 80
+	bay "Screener" -506.5 80
+	bay "Screener" -506.5 80
+	bay "Screener" -506.5 80
+	bay "Screener" -506.5 80
+	bay "Screener" -506.5 80
+	bay "Screener" -506.5 80
+	bay "Screener" -382 77.5
+	bay "Screener" -382 77.5
+	bay "Screener" -382 77.5
+	bay "Screener" -382 77.5
+	bay "Screener" -382 77.5
+	bay "Screener" -382 77.5
+	bay "Screener" -382 77.5
+	bay "Screener" -382 77.5
+	bay "Screener" -382 77.5
+	bay "Screener" -382 77.5
+	bay "Screener" -382 77.5
+	bay "Screener" -382 77.5
+	bay "Screener" -16.5 91
+	bay "Screener" -16.5 91
+	bay "Screener" -16.5 91
+	bay "Screener" -16.5 91
+	bay "Screener" -16.5 91
+	bay "Screener" -16.5 91
+	bay "Screener" -16.5 91
+	bay "Screener" -16.5 91
+	bay "Screener" -16.5 91
+	bay "Screener" -16.5 91
+	bay "Screener" -16.5 91
+	bay "Screener" -16.5 91
+	bay "Screener" -34.5 222.5
+	bay "Screener" -34.5 222.5
+	bay "Screener" -34.5 222.5
+	bay "Screener" -34.5 222.5
+	bay "Screener" -34.5 222.5
+	bay "Screener" -34.5 222.5
+	bay "Screener" -34.5 222.5
+	bay "Screener" -34.5 222.5
+	bay "Screener" -34.5 222.5
+	bay "Screener" -34.5 222.5
+	bay "Screener" -34.5 222.5
+	bay "Screener" -34.5 222.5
+	bay "Screener" 65 201.5
+	bay "Screener" 65 201.5
+	bay "Screener" 65 201.5
+	bay "Screener" 65 201.5
+	bay "Screener" 65 201.5
+	bay "Screener" 65 201.5
+	bay "Screener" 65 201.5
+	bay "Screener" 65 201.5
+	bay "Screener" 65 201.5
+	bay "Screener" 65 201.5
+	bay "Screener" 65 201.5
+	bay "Screener" 65 201.5
+	bay "Screener" 372.5 217
+	bay "Screener" 372.5 217
+	bay "Screener" 372.5 217
+	bay "Screener" 372.5 217
+	bay "Screener" 372.5 217
+	bay "Screener" 503 259
+	bay "Screener" 503 259
+	bay "Screener" 503 259
+	bay "Screener" 503 259
+	bay "Screener" 503 259
+	bay "Screener" 503 259
+	bay "Screener" 503 259
+	bay "Screener" 503 259
+	bay "Screener" 503 259
+	bay "Screener" 503 259
+	bay "Screener" 503 259
+	bay "Screener" 503 259
+	bay "Screener" 196.5 308
+	bay "Screener" 196.5 308
+	bay "Screener" -256 350
+	bay "Screener" -256 350
+	bay "Screener" -225 406
+	bay "Screener" -225 406
+	bay "Screener" -225 406
+	bay "Screener" -82 415
+	bay "Screener" -82 415
+	bay "Screener" 298 355
+	bay "Screener" 298 355
+	bay "Screener" 333 411
+	bay "Screener" 333 411
+	bay "Screener" 333 411
+	bay "Screener" 470 418
+	bay "Screener" 470 418
+	bay "Screener" -418 522
+	bay "Screener" -418 522
+	bay "Screener" -418 522
+	bay "Screener" -418 522
+	bay "Screener" -418 522
+	bay "Screener" -418 522
+	bay "Screener" -418 522
+	bay "Screener" -418 522
+	bay "Screener" -418 522
+	bay "Screener" -418 522
+	bay "Screener" -418 522
+	bay "Screener" -418 522
+	bay "Screener" 137 524
+	bay "Screener" 137 524
+	bay "Screener" 137 524
+	bay "Screener" 137 524
+	bay "Screener" 137 524
+	bay "Screener" 137 524
+	bay "Screener" 137 524
+	bay "Screener" 137 524
+	bay "Screener" 137 524
+	bay "Screener" 137 524
+	bay "Screener" 137 524
+	bay "Screener" 137 524
+	bay "Screener" 560 555
+	bay "Screener" 560 555
+	bay "Screener" 374 820
+	bay "Screener" 374 820
+	bay "Screener" 325 968
+	bay "Screener" 325 968
+	bay "Screener" 187 963
+	bay "Screener" 187 963
+	bay "Screener" 187 963
+	bay "Screener" -7 1075
+	bay "Screener" -7 1075
+	bay "Screener" -7 1075
+	bay "Screener" -7 1075
+	bay "Screener" -7 1075
+	bay "Screener" -7 1075
+	bay "Screener" -7 1075
+	bay "Screener" -7 1075
+	bay "Screener" -7 1075
+	bay "Screener" -7 1075
+	bay "Screener" -7 1075
+	bay "Screener" -7 1075
+	bay "Screener" -205 1054
+	bay "Screener" -205 1054
+	bay "Screener" -205 1054
+	bay "Screener" -205 1054
+	bay "Screener" -205 1054
+	bay "Screener" -205 1054
+	bay "Screener" -205 1054
+	bay "Screener" -205 1054
+	bay "Screener" -205 1054
+	bay "Screener" -205 1054
+	bay "Screener" -205 1054
+	bay "Screener" -205 1054
+	bay "Destroyer" 116 -1115
+	bay "Destroyer" 99 -1053
+	bay "Destroyer" 105 -968
+	bay "Destroyer" 109 -854
+	bay "Destroyer" 120 -872
+	bay "Destroyer" 98 -738
+	bay "Destroyer" -63 -684
+	bay "Destroyer" 45 -638
+	bay "Destroyer" 139 -518
+	bay "Destroyer" 217 -444
+	bay "Destroyer" -92 -556
+	bay "Destroyer" -98 -424
+	bay "Destroyer" -91 -402
+	bay "Destroyer" 22 -337
+	bay "Destroyer" 179 -368
+	bay "Destroyer" -100 -278
+	bay "Destroyer" 164 -86
+	bay "Destroyer" -43 -338
+	bay "Destroyer" -164 -36
+	bay "Destroyer" 2 157
+	bay "Destroyer" 232 367
+	bay "Destroyer" -331 247
+	bay "Destroyer" -379 470
+	bay "Destroyer" -102 501
+	bay "Destroyer" 46 392
+	bay "Destroyer" -244 262
+	bay "Destroyer" -116 459
+	bay "Destroyer" 85 381
+	bay "Destroyer" 269 373
+	bay "Destroyer" 286 609
+	bay "Destroyer" 143 686
+	bay "Destroyer" -282 593
+	bay "Destroyer" -188 648
+	bay "Destroyer" -99 899
+	bay "Destroyer" 15 411
+	bay "Destroyer" 15 881
+	bay "Destroyer" -174 1031
+	bay "Destroyer" 61 1022
+	bay "Destroyer" 330 746
+	bay "Destroyer" 62 -441
+	bay "Destroyer" 116 -1115
+	bay "Destroyer" 99 -1053
+	bay "Destroyer" 105 -968
+	bay "Destroyer" 109 -854
+	bay "Destroyer" 120 -872
+	bay "Destroyer" 98 -738
+	bay "Destroyer" -63 -684
+	bay "Destroyer" 45 -638
+	bay "Destroyer" 139 -518
+	bay "Destroyer" 217 -444
+	bay "Destroyer" -92 -556
+	bay "Destroyer" -98 -424
+	bay "Destroyer" -91 -402
+	bay "Destroyer" 22 -337
+	bay "Destroyer" 179 -368
+	bay "Destroyer" -100 -278
+	bay "Destroyer" 164 -86
+	bay "Destroyer" -43 -338
+	bay "Destroyer" -164 -36
+	bay "Destroyer" 2 157
+	bay "Destroyer" 232 367
+	bay "Destroyer" -331 247
+	bay "Destroyer" -379 470
+	bay "Destroyer" -102 501
+	bay "Destroyer" 46 392
+	bay "Destroyer" -244 262
+	bay "Destroyer" -116 459
+	bay "Destroyer" 85 381
+	bay "Destroyer" 269 373
+	bay "Destroyer" 286 609
+	bay "Destroyer" 143 686
+	bay "Destroyer" -282 593
+	bay "Destroyer" -188 648
+	bay "Destroyer" -99 899
+	bay "Destroyer" 15 411
+	bay "Destroyer" 15 881
+	bay "Destroyer" -174 1031
+	bay "Destroyer" 61 1022
+	bay "Destroyer" 330 746
+	bay "Destroyer" 62 -441
+	bay "Destroyer" 116 -1115
+	bay "Destroyer" 99 -1053
+	bay "Destroyer" 105 -968
+	bay "Destroyer" 109 -854
+	bay "Destroyer" 120 -872
+	bay "Destroyer" 98 -738
+	bay "Destroyer" -63 -684
+	bay "Destroyer" 45 -638
+	bay "Destroyer" 139 -518
+	bay "Destroyer" 217 -444
+	bay "Destroyer" -92 -556
+	bay "Destroyer" -98 -424
+	bay "Destroyer" -91 -402
+	bay "Destroyer" 22 -337
+	bay "Destroyer" 179 -368
+	bay "Destroyer" -100 -278
+	bay "Destroyer" 164 -86
+	bay "Destroyer" -43 -338
+	bay "Destroyer" -164 -36
+	bay "Destroyer" 2 157
+	bay "Destroyer" 232 367
+	bay "Destroyer" -331 247
+	bay "Destroyer" -379 470
+	bay "Destroyer" -102 501
+	bay "Destroyer" 46 392
+	bay "Destroyer" -244 262
+	bay "Destroyer" -116 459
+	bay "Destroyer" 85 381
+	bay "Destroyer" 269 373
+	bay "Destroyer" 286 609
+	bay "Destroyer" 143 686
+	bay "Destroyer" -282 593
+	bay "Destroyer" -188 648
+	bay "Destroyer" -99 899
+	bay "Destroyer" 15 411
+	bay "Destroyer" 15 881
+	bay "Destroyer" -174 1031
+	bay "Destroyer" 61 1022
+	bay "Destroyer" 330 746
+	bay "Destroyer" 62 -441
+	bay "Cruiser" 91 -1040
+	bay "Cruiser" 120 -779
+	bay "Cruiser" -53 -657
+	bay "Cruiser" -153 -544
+	bay "Cruiser" 44 -536
+	bay "Cruiser" 216 -483
+	bay "Cruiser" 52 -334
+	bay "Cruiser" -32 -222
+	bay "Cruiser" -38 -233
+	bay "Cruiser" 139 -108
+	bay "Cruiser" 293 -165
+	bay "Cruiser" -61 -39
+	bay "Cruiser" 290 -166
+	bay "Cruiser" 138 -107
+	bay "Cruiser" -60 -47
+	bay "Cruiser" -214 72
+	bay "Cruiser" -109 141
+	bay "Cruiser" 325 86
+	bay "Cruiser" -135 382
+	bay "Cruiser" -2 358
+	bay "Cruiser" -123 138
+	bay "Cruiser" -219 72
+	bay "Cruiser" -512 314
+	bay "Cruiser" -402 218
+	bay "Cruiser" -309 336
+	bay "Cruiser" -420 441
+	bay "Cruiser" 236 529
+	bay "Cruiser" -312 525
+	bay "Cruiser" 174 643
+	bay "Cruiser" 252 772
 	leak "leak" 30 50
 	leak "flame" 30 80
 	leak "big leak" 50 30
@@ -400,3 +1120,95 @@ ship "Llama"
 	"final explode" "final explosion medium"
 	description "Unlike the Alpaca, this is a functional, liveable ship with the amenities needed to sustain a significant human populous, while also being a capable combat ship in its own right. Exceedingly durable and armed with a good mix of precision and area-effect weaponry, it makes an excellent ship all on its own."
 	description "Amazingly, the Quaernan has bay space reserved for thirty five of these ships, lending it some significant extra firepower."
+
+ship "Casparna"
+	plural "Casparnans"
+	sprite "ship/casparna"
+	thumbnail "ship/thumbcasparna"
+	attributes
+		category "Cruiser"
+		"cost" 14080000
+		"shields" 322500
+		"hull" 127500
+		"required crew" 785
+		"bunks" 3258
+		"mass" 4950
+		"drag" 22.9
+		"heat dissipation" .8
+		"fuel capacity" 1000
+		"cargo space" 3865
+		"outfit space" 5115
+		"weapon capacity" 2035
+		"engine capacity" 555
+		"spinal mount" 1
+		weapon
+			"blast radius" 200
+			"shield damage" 5000
+			"hull damage" 1500
+			"hit force" 2500
+	outfits
+		"Incendiary Repeater" 2
+		"Molotov Fabricator" 2
+		"Thermobore Cannon"
+		
+		"Tidal Force Generator"
+		"Sentinel's Reach" 2
+		"Denial Turret" 2
+		"Thermoionic Plasma Turret" 2
+		
+		"Missile Destruction Field"
+		"Anti-Torpedo Turret" 2
+		
+		"Great Pileated Regenerator"
+		"Pacer Regenerator"
+		"Large HDMG"
+		"Active Hull Armor"
+		
+		"Reserve Power Dynamo"
+		"Small Hydrogen Energy Storage"
+		"Hybrid Radiation Mantle"
+		
+		"Hydroponics Farm"
+		
+		"Large Multi-Engine"
+		
+	gun -42 -265.5 "Molotov Fabricator"
+	gun -19.5 -265.5 "Molotov Fabricator"
+	gun 4 -230 "Incendiary Repeater"
+	gun 10 -226 "Incendiary Repeater"
+	gun 65 46 "Thermobore Cannon"
+	turret 4.5 -164.5 "Thermoionic Plasma Turret"
+	turret -8.5 -133 "Denial Turret"
+	turret -84.5 -18
+	turret -71 -17.5 "Missile Destruction Field"
+	turret -1.5 -3.5 "Anti-Torpedo Turret"
+	turret -76 96.5 "Tidal Force Generator"
+	turret 97 124.5
+	turret 77.5 155 "Anti-Torpedo Turret"
+	turret -1 153.5 "Denial Turret"
+	turret -65.5 214 "Thermoionic Plasma Turret"
+	engine -48 254
+	engine -15 255.5
+	engine 64 188.5
+	bay "Drone" -85 -81.5
+	bay "Drone" -85 -81.5
+	bay "Drone" -85 -81.5
+	bay "Drone" -85 -81.5
+	bay "Drone" -85 -81.5
+	bay "Drone" -85 -81.5
+	bay "Drone" 17.5 84.5
+	bay "Drone" 17.5 84.5
+	bay "Drone" 17.5 84.5
+	bay "Drone" 17.5 84.5
+	bay "Fighter" -39.5 -85
+	bay "Fighter" -37 56.5
+	bay "Fighter" -27.5 160.5
+	leak "leak" 50 50
+	leak "flame" 80 80
+	leak "big leak" 80 30
+	explode "tiny explosion" 10
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	"final explode" "final explosion medium"
+	description "Compared to the smaller Alpacas and Llamas, the Casparnans feel like complete black sheep. They're marginally slower, with less focus on range and more focus on direct firepower and powerful regeneration units. These ships are insanely hard to kill, especially in herds."
+	
