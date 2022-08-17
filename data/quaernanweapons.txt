@@ -241,7 +241,7 @@ outfit "Skeet Turret"
 	"turret mounts" -1
 	"required crew" 9
 	weapon
-		sprite "projectile/plasma"
+		sprite "projectile/longshot_round"
 			"frame rate" 3
 		"hardpoint sprite" "hardpoint/plasma turret"
 		"hardpoint offset" 15.

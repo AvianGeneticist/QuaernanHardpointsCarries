@@ -2,17 +2,20 @@ category "ship"
 	"Screener"
 	"Destroyer"
 	"Cruiser"
+	"Caravan"
 
 category "bay type"
 	"Screener"
 	"Destroyer"
 	"Cruiser"
+	"Caravan"
 	
 shipyard "Basic Ships"
 	"Quaernan"
 	"Alpaca"
 	"Llama"
 	"Casparna"
+	"Lianba"
 
 ship "Quaernan"
 	sprite "ship/quaernanV2"
@@ -988,6 +991,26 @@ ship "Quaernan"
 	bay "Cruiser" -312 525
 	bay "Cruiser" 174 643
 	bay "Cruiser" 252 772
+	bay "Caravan" 293 -165
+	bay "Caravan" -61 -39
+	bay "Caravan" 290 -166
+	bay "Caravan" 138 -107
+	bay "Caravan" -60 -47
+	bay "Caravan" -214 72
+	bay "Caravan" -109 141
+	bay "Caravan" 325 86
+	bay "Caravan" -135 382
+	bay "Caravan" -2 358
+	bay "Caravan" -123 138
+	bay "Caravan" -219 72
+	bay "Caravan" -512 314
+	bay "Caravan" -402 218
+	bay "Caravan" -309 336
+	bay "Caravan" -420 441
+	bay "Caravan" 236 529
+	bay "Caravan" -312 525
+	bay "Caravan" 174 643
+	bay "Caravan" 252 772
 	leak "leak" 30 50
 	leak "flame" 30 80
 	leak "big leak" 50 30
@@ -1004,7 +1027,7 @@ ship "Alpaca"
 	thumbnail "ship/thumbalpaca"
 	attributes
 		category "Screener"
-		"cost" 14080000
+		"cost" 180800000
 		"shields" 39500
 		"hull" 60500
 		"required crew" 0
@@ -1058,7 +1081,7 @@ ship "Llama"
 	thumbnail "ship/thumbllama"
 	attributes
 		category "Destroyer"
-		"cost" 14080000
+		"cost" 440800000
 		"shields" 112500
 		"hull" 87500
 		"required crew" 412
@@ -1127,7 +1150,7 @@ ship "Casparna"
 	thumbnail "ship/thumbcasparna"
 	attributes
 		category "Cruiser"
-		"cost" 14080000
+		"cost" 1020800000
 		"shields" 322500
 		"hull" 127500
 		"required crew" 785
@@ -1211,4 +1234,91 @@ ship "Casparna"
 	explode "medium explosion" 20
 	"final explode" "final explosion medium"
 	description "Compared to the smaller Alpacas and Llamas, the Casparnans feel like complete black sheep. They're marginally slower, with less focus on range and more focus on direct firepower and powerful regeneration units. These ships are insanely hard to kill, especially in herds."
+	
+ship "Lianba"
+	plural "Lianbae"
+	sprite "ship/lianba"
+	thumbnail "ship/thumblianba"
+	attributes
+		category "Caravan"
+		"cost" 3050800000
+		"shields" 490000
+		"hull" 410000
+		"required crew" 1
+		"bunks" 6895
+		"mass" 9870
+		"drag" 100.9
+		"heat dissipation" .63
+		"fuel capacity" 2500
+		"cargo space" 25475
+		"outfit space" 6625
+		"weapon capacity" 2190
+		"engine capacity" 610
+		"automaton" 1
+		weapon
+			"blast radius" 200
+			"shield damage" 5000
+			"hull damage" 1500
+			"hit force" 2500
+	outfits
+		"Evasion Beam" 3
+		"Anti-Ship Blaster Turret" 3
+		"Deadshot Turret" 2
+		
+		"Vortex Anti-Missile" 2
+		
+		"Grand Pileated Regenerator"
+		"Pacemaker Regenerator" 4
+		"Drone Hull Matrix"
+		"Temperature Stabilizer"
+		"Impact Sheath"
+		
+		"Modest Hydrogen Energy Storage"
+		"Hybrid Radiation Core"
+		
+		"Harvesting Node"
+		"Aquaponic System"
+		
+		"Large Mono-Engine"
+		
+	turret 43 -284 "Deadshot Turret"
+	turret 36 -178 "Anti-Ship Blaster Turret"
+	turret -38 -78 "Evasion Beam"
+	turret 38 -20 "Vortex Anti-Missile"
+	turret 45.5 87.5 "Anti-Ship Blaster Turret"
+	turret -30 187.5 "Evasion Beam"
+	turret 48 246 "Anti-Ship Blaster Turret"
+	turret -47 348 "Deadshot Turret"
+	turret 1.5 367.5 "Evasion Beam"
+	turret -65 428 "Vortex Anti-Missile"
+	engine 63.5 461.5
+	engine -13 469
+	engine -46.5 467.5
+	bay "Drone" -5.5 -270
+	bay "Drone" -5.5 -270
+	bay "Drone" 54 -90
+	bay "Drone" 54 -90
+	bay "Drone" 54 -90
+	bay "Drone" 54 -90
+	bay "Drone" 64 177
+	bay "Drone" 64 177
+	bay "Drone" 64 177
+	bay "Drone" 64 177
+	bay "Drone" -3 -3.5
+	bay "Drone" 20 234.5
+	bay "Fighter" 4.5 -317.5
+	bay "Fighter" -43.5 40.5
+	bay "Fighter" -3.5 -207
+	bay "Fighter" 1.5 -120.5
+	bay "Fighter" -1.5 -2.5
+	leak "leak" 50 50
+	leak "flame" 80 80
+	leak "big leak" 80 30
+	explode "tiny explosion" 10
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	"final explode" "final explosion medium"
+	description "These enormous vessels are autonomous freighter-transport hybrids, designed not for engaging enemies, but resisting their fire. Despite the fact that these ships would do best with hyperdrives, they operate seemingly as support units for smaller ships like the Alpacas or Llamas, carrying large amounts of supplies or reserve crew within the systems they patrolled."
+	description "	When all is said and done, however, they can be packed up into the Quaernan for interstellar travel. With the Quaernan's already huge cargo capacity, one is left to wonder just what would be carried that required additional dedicated ships."
+
 	

@@ -1,6 +1,6 @@
 outfit "Missile Destruction Field"
 	category "Turrets"
-	cost 30000000
+	cost 25000000
 	thumbnail "outfit/heavy anti-missile"
 	"mass" 125
 	"outfit space" -125
@@ -42,7 +42,7 @@ outfit "Anti-Torpedo Turret"
 
 outfit "Thermobore Cannon"
 	category "Secondary Weapons"
-	cost 21500000000
+	cost 18500000000
 	thumbnail "outfit/flamethrower"
 	"mass" 265
 	"outfit space" -265
@@ -83,7 +83,7 @@ outfit "Thermobore"
 
 outfit "Incendiary Repeater"
 	category "Guns"
-	cost 1050000000
+	cost 950000000
 	thumbnail "outfit/mod blaster"
 	"mass" 115
 	"outfit space" -115
@@ -117,7 +117,7 @@ outfit "Incendiary Repeater"
 
 outfit "Molotov Fabricator"
 	category "Secondary Weapons"
-	cost 750000000
+	cost 350000000
 	thumbnail "outfit/rocket launcher"
 	"mass" 190
 	"outfit space" -190
